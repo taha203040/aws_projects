@@ -2,7 +2,9 @@
 
 ### 👋 Hi, I'm **Rabia Ahmed Taha**
 
-Documenting my hands-on learning path to becoming an **AWS Solutions Architect**. This repository tracks my progress through 51 AWS projects from NextWork's Solutions Architect roadmap, with detailed notes, screenshots, and lessons learned along the way.
+Documenting my hands-on learning path to becoming an **AWS Solutions Architect**. This repository tracks my progress through NextWork's 51-project Solutions Architect roadmap, with detailed notes, screenshots, and lessons learned along the way.
+
+**Status: 🔄 IN PROGRESS.** 39 projects are completed and documented so far, and I am working through the remaining 12.
 
 ---
 
@@ -14,6 +16,21 @@ This is my personal documentation of building **production-ready AWS solutions**
 - 🔧 Code I've written and configurations I've tested
 - 🎓 Key lessons and concepts I've learned
 - ⚠️ Challenges I faced and how I solved them
+
+---
+
+## 📊 Progress at a Glance
+
+| Phase                          | Status         | Projects          |
+| ------------------------------ | -------------- | ----------------- |
+| 1. AWS Basics                  | ✅ Completed   | 2/2               |
+| 2. Networking                  | ✅ Completed   | 10/10             |
+| 3. Databases                   | ✅ Completed   | 5/5               |
+| 4. Security                    | ✅ Completed   | 4/4               |
+| 5. Containers & Compute        | ✅ Completed   | 8/8               |
+| 6. DevOps                      | ✅ Completed   | 10/10             |
+| Remaining roadmap projects     | 🔄 In progress | 12 still to do    |
+| **Total documented**           |                | **39 of 51**      |
 
 ---
 
@@ -57,9 +74,9 @@ This is my personal documentation of building **production-ready AWS solutions**
 
 ---
 
-### **Phase 4: Security** 🔄 IN PROGRESS (4/4 Projects)
+### **Phase 4: Security** ✅ COMPLETED (4/4 Projects)
 
-| #   | Project                                                                    | Status      | What I'll Learn               |
+| #   | Project                                                                    | Status      | What I Learned                |
 | --- | -------------------------------------------------------------------------- | ----------- | ----------------------------- |
 | 18  | [Encrypt Data with AWS KMS](./04-security/18-encrypt-data-with-kms)        | ✅ Complete | Key management, encryption    |
 | 19  | [Threat Detection with GuardDuty](./04-security/19-threat-detection)       | ✅ Complete | Security monitoring           |
@@ -68,9 +85,9 @@ This is my personal documentation of building **production-ready AWS solutions**
 
 ---
 
-### **Phase 5: Containers & Compute** COMPLETED (8/8 Projects)
+### **Phase 5: Containers & Compute** ✅ COMPLETED (8/8 Projects)
 
-| #   | Project                                                                         | Status      | What I'll Learn                  |
+| #   | Project                                                                         | Status      | What I Learned                   |
 | --- | ------------------------------------------------------------------------------- | ----------- | -------------------------------- |
 | 22  | [Website Delivery with CloudFront](./05-containers-compute/22-cloudfront)       | ✅ Complete | CDN, edge locations, caching     |
 | 23  | [APIs with Lambda + API Gateway](./05-containers-compute/23-lambda-api-gateway) | ✅ Complete | Serverless APIs, REST endpoints  |
@@ -83,9 +100,9 @@ This is my personal documentation of building **production-ready AWS solutions**
 
 ---
 
-### **Phase 6: DevOps** COMPLETED (10/10 Projects)
+### **Phase 6: DevOps** ✅ COMPLETED (10/10 Projects)
 
-| #   | Project                                                                           | Status      | What I'll Learn                    |
+| #   | Project                                                                           | Status      | What I Learned                     |
 | --- | --------------------------------------------------------------------------------- | ----------- | ---------------------------------- |
 | 32  | [Join the 7 Day DevOps Challenge!](./06-devops/32-devops-challenge)               | ✅ Complete | DevOps fundamentals                |
 | 33  | [Set Up a Web App in the Cloud](./06-devops/33-web-app-setup)                     | ✅ Complete | Cloud application deployment       |
@@ -97,6 +114,12 @@ This is my personal documentation of building **production-ready AWS solutions**
 | 39  | [Build a CI/CD Pipeline with AWS](./06-devops/39-cicd-pipeline)                   | ✅ Complete | End-to-end automation              |
 | 40  | [Create S3 Buckets with Terraform](./06-devops/40-terraform-s3)                   | ✅ Complete | Terraform basics, state management |
 | 41  | [Multi-Cloud Data Transfer with AWS and GCP](./06-devops/41-multi-cloud-transfer) | ✅ Complete | Cross-cloud integration            |
+
+---
+
+### **Remaining Roadmap Projects** 🔄 IN PROGRESS (12 projects to go)
+
+I'm continuing through the rest of NextWork's roadmap. Each project will be added to the phase it belongs to, with notes and screenshots, as I complete it.
 
 ---
 
@@ -123,27 +146,55 @@ This is my personal documentation of building **production-ready AWS solutions**
 - Using DynamoDB for NoSQL operations
 - Querying and managing data in both SQL and NoSQL
 
+### ✅ Security
+
+- Encrypting data and managing keys with AWS KMS
+- Detecting threats with GuardDuty
+- Managing credentials with Secrets Manager
+- Building a security monitoring system with CloudWatch, GuardDuty, and alerts
+
+### ✅ Containers & Compute
+
+- Delivering websites globally with CloudFront
+- Building serverless APIs with Lambda and API Gateway
+- Designing a three-tier web application
+- Launching a Kubernetes (EKS) cluster, writing manifests, and deploying a full-stack backend
+
+### ✅ DevOps
+
+- Deploying a web app in the cloud and connecting GitHub to AWS
+- Managing packages with CodeArtifact, building with CodeBuild, and deploying with CodeDeploy
+- Infrastructure as Code with CloudFormation and Terraform
+- Building an end-to-end CI/CD pipeline
+- Transferring data across AWS and GCP
+
 ---
 
 ## 🛠️ AWS Services I've Used
 
 **Compute & Storage**  
-EC2 • S3 • EBS
+EC2 • S3 • EBS • Lambda • CloudFront
+
+**Containers**  
+Docker • Kubernetes • EKS
 
 **Databases**  
 RDS Aurora • DynamoDB
 
 **Networking**  
-VPC • Subnets • Route Tables • Internet Gateway • Security Groups • NACLs • VPC Endpoints • VPC Peering
+VPC • Subnets • Route Tables • Internet Gateway • Security Groups • NACLs • VPC Endpoints • VPC Peering • API Gateway
 
 **Security & Identity**  
-IAM • Policies • Roles
+IAM • Policies • Roles • KMS • Secrets Manager • GuardDuty
 
 **Monitoring**  
 VPC Flow Logs • CloudWatch
 
-**Coming Up Next**  
-KMS • Secrets Manager • GuardDuty • Lambda • CloudFront • Docker • Kubernetes • CodePipeline • Terraform • CloudFormation
+**DevOps & Infrastructure as Code**  
+CodeArtifact • CodeBuild • CodeDeploy • CodePipeline • CloudFormation • Terraform
+
+**In Progress**  
+The remaining 12 roadmap projects
 
 ---
 
@@ -156,6 +207,7 @@ KMS • Secrets Manager • GuardDuty • Lambda • CloudFront • Docker • K
 ✅ Phase 4: Security (Completed)
 ✅ Phase 5: Containers & Compute (Completed)
 ✅ Phase 6: DevOps (Completed)
+🔄 Remaining roadmap projects (In progress)
 ```
 
 ---
@@ -177,8 +229,8 @@ Big thanks to **NextWork** for creating this Solutions Architect roadmap with ha
 
 ---
 
-**Last Updated:** November 5, 2026  
-**Current Focus:** DevOps
+**Last Updated:** November 7, 2026  
+**Current Focus:** Completing the remaining 12 roadmap projects
 
 ---
 
