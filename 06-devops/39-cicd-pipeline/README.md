@@ -1,4 +1,12 @@
-﻿# Build a CI/CD Pipeline with AWS
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://nextwork.ai/static/nextwork-logo-paper.svg" /><img src="https://nextwork.ai/static/nextwork-logo-leather.svg" alt="NextWork" width="300" /></picture>
+
+# Build a CI/CD Pipeline with AWS
+
+**Project Link:** [View Project](https://nextwork.ai/projects/7ade5e2f-0020-55fb-9bba-abede6ce1de9)
+
+**Author:** Rabia Taha
+
+---
 
 ## Introducing Today's Project!
 
