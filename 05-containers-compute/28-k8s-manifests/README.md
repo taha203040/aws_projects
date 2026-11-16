@@ -1,6 +1,5 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://nextwork.ai/static/nextwork-logo-paper.svg" />
-  <img src="https://nextwork.ai/static/nextwork-logo-leather.svg" alt="NextWork" width="300" />
 </picture>
 
 <img width="1570" height="818" alt="Screenshot" src="https://github.com/user-attachments/assets/2f95ec75-f491-4e00-a23a-276abfb39c2a" />
