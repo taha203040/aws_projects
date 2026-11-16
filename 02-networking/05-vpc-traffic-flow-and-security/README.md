@@ -29,6 +29,8 @@ In this step, I will create a VPC, subnets, and an internet gateway for our proj
 
 In this step, I will implement the route table by creating it in order to direct traffic from my resources to my internet gateway. This is what makes a subnet public.
 
+![Screenshot](https://nextwork.ai/covers/screenshot_1a13dd127f55145efca72cb807ced8fa.png)
+
 ### What is Amazon VPC?
 
 Amazon VPC is a service that allows me to create and manage a logically isolated virtual network in AWS, and it is useful because it gives me control over networking, including subnets, route tables, and network security.
